@@ -1,0 +1,52 @@
+/* General App Styles */
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Screen Container Styles */
+.screen-container {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.screen-container h1 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.screen-container p {
+  font-size: 18px;
+  color: #555;
+}
